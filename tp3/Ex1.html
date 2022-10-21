@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <article>
+    <header>
+    <h1> Gestionnaire de contact</h1>
+</header>
+    <ul class="c">
+        <li ><a href=#> Acueil</a></li>
+        <li> /</li>
+        <li>Client</li>
+    </ul><br>
+    <h2> Ajout / modification d'un contact </h2>
+    <details>
+        <summary>click to show the form</summary>
+        <form>
+            <fieldset>
+                <legend>Nouveau contact</legend>
+                <table>
+                    <tr>
+                        <td>
+                         <label for="nom">Nom:</label></td>
+                       
+                        <td><input type="text"  required maxlength="32"/></td>
+                    </tr>
+                    <tr>
+                        <td><label for="prenom">Prenom:</label></td>
+                        <td><input type="text" required maxlength="32" /></td>
+                    </tr>
+                    <tr>
+                        <td><label for="email">Email:</label></td>
+                        <td><input type="text"  /></td>
+                    </tr>
+                    <tr>
+                        <td><label for="telephone">Telephone:</label></td>
+                        <td><input type="text" required maxlength="32" /></td>
+                    </tr>
+                    <tr>
+                        <td><label for="date">Date de naissance:</label></td>
+                        <td><input type="date" /></td>
+                    </tr>
+                    <tr>
+                        <td><label for="nbenfant">Nombre d'enfant</label></td>
+                        <td><input type="range" /></td>
+                    </tr>
+                    
+                </table>
+                <button type="submit">Ok</button>
+
+
+
+
+        </form>
+    
+    </details>
+    
+
+
+<h2>liste de contact:</h2>
+    <table border>
+        <thead>
+        <tr>
+            <th>Prenom</th>
+            <th>Nom</th>
+            <th>Telephone</th>
+            <th>Email</th>
+            <th>Date de naissance</th>
+            <th>Nombre d'enfant</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>jean</td>
+            <td>marais</td>
+            <td>06022155</td>
+            <td>jen@gmail.acteur.fr</td>
+            <td>17/02/2002</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td>jones</td>
+            <td>menais</td>
+            <td>0235265</td>
+            <td>jones@gmail.com</td>
+            <td>15/03/2001</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>Eddy</td>
+            <td>mitchel</td>
+            <td>06555228</td>
+            <td>Eddy@gmail.com</td>
+            <td>15/03/1970</td>
+            <td>5</td>
+        </tr>
+    </tbody>
+</table>
+<button type="submit">Ajouter Client</button>
+<footer><p>Gestionnaire de contacts-2022</p></footer>
+
+
+</article>
+</body>
+</html>

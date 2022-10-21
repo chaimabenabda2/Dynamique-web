@@ -1,0 +1,22 @@
+input:valid{
+    background-color: green;
+}
+input:invalid{
+    background-color: pink;
+}
+footer{
+    position: fixed;
+    background-color: lightgray;
+    width:100%;
+  
+    text-align: center;
+}
+ul.c li{
+    background-color: lightgray;
+    list-style: none;
+    float: left;
+    
+}
+tr:nth-child(even){
+    background-color: lightgray;
+}

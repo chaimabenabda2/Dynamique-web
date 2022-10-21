@@ -1,0 +1,11 @@
+body{
+    text-align: center;
+    background-color: aliceblue;
+    width: 100%;
+}
+@media (max-width:1000px){
+    form label{
+        color: rgb(223, 19, 19);
+        
+    }
+}
