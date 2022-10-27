@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form onsubmit="myFunction">
+<p>champ:</p>
+
+<input type="text" id="texte"><br>
+<button type="submit" onclick="myFunction()">envoyer</button>
+<span id="demo"></span>
+
+    </form>
+    <script>
+        function myFunction(){
+            let x = document.getElementById("texte").value;
+            if (x =="") {
+                document.getElementById("demo").innerHTML = "le champ ne peut pas etre vide";
+                return false;
+            }
+        else{
+            alert("formulaire peut etre envoyer");
+            return true;
+        }
+        }
+    </script>
+</body>
+</html>

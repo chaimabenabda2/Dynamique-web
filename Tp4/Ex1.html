@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ex1Tp4</title>
+    <style> 
+        #myDiv {
+          width: 300px;
+          height: 300px;
+          background-color: rgb(251, 251, 251);
+          }
+        </style>
+</head>
+<body>
+    <div id="myDiv">
+    <div id="texte" onclick="myFunctiont()">paragraphe qui change de couleur</div>
+    <button onclick='myFunctionb()'>Night</button>
+    <button onclick='myFunctionw()'>Jour</button><br>
+    <img id="myImage" src="js.png" style="width:100px" onmouseOver="setTimeout('myFunctioni()',900)">
+   </div>
+   
+<script>
+  function myFunctiont(){ 
+var texte = document.getElementById("texte"); 
+texte.setAttribute("style", "color:red"); }
+
+function myFunctionb() {
+    document.getElementById("myDiv").style.backgroundColor = "black";
+}
+function myFunctionw() {
+    document.getElementById("myDiv").style.backgroundColor = "white";
+}
+function myFunctioni() {
+    document.getElementById("myImage").src="wifi.png";
+}
+  
+  </script>
+
+   
+    
+</body>
+</html>
