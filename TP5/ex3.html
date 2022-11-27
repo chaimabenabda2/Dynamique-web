@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<div>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="divTp2">
+        <p>language basee sur ECMAscript</p>
+        <ul>
+            <li>javascript</li>
+            <li>js</li>
+            <li>actionjscript</li>
+            <li>EX4</li>
+        </ul>
+
+    </div>
+    <script>
+        var mainDiv=document.createElement('div');
+        mainDiv.id='divTP2';
+        var language=[
+            document.createTextNode('javascript'),
+            document.createTextNode('js'),
+            document.createTextNode('actionjscript'),
+            document.createTextNode('EX4')];
+            
+        var paragraphe=document.createElement('p');
+        var paragrapheText=document.createTextNode('bbfhsjfsugurge');
+        paragraphe.appendChild(paragrapheText);
+        var ulist= document.createElement('ul');
+        var uItem;
+        for(var i=0;c=language.length;i<c,i++){
+            uItem=document.createElement('li');
+            uItem.appendchild(language[i]);
+            ulist.appendChild(uItem);}
+            mainDiv.appendChild(paragraphe);
+            mainDiv.appendchild(ulist);
+            document.body.appendChild(mainDiv);
+
+        
+
+    </script>
+</body>
+</html>

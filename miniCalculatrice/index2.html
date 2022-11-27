@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mini Calculatrice</title>
+</head>
+<body>
+    <label for="n1">nombre 1</label>
+    <input type="text" id="nb1">
+    
+    <label for="n2">nombre 2</label>
+    <input type="text" id="nb2">
+
+    
+    <label for="r">resultat</label>
+    <input type="text" id="res">
+    <button onclick="add()">+</button>
+
+    <script>
+function add(){
+    let a=document.getElementById("nb1")
+    let b= document.getElementById("nb2")  
+    let r= parseInt(a)+parseInt(b);
+    document.getElementById("output") = a+b;
+
+}
+    </script>
+</body>
+</html>
